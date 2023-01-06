@@ -1,3 +1,5 @@
+/**************************TAG SELECTORS****************************/
+
 body {
     background-color: #B4CFB0;
 }
@@ -17,5 +19,23 @@ h1 {
 }
 
 h3 {
-    color: #789395
+    color: #789395;
+}
+
+/************************************CLASS SELECTORS***************************/
+
+.category:hover {
+    color: #E5E3C9;
+}
+
+
+/*************************************ID SELECTORS*****************************/
+
+#profile_picture {
+    height: 200px;
+    border-radius: 100%;
+}
+
+#profile_picture:hover {
+    border-radius: 50%;
 }
